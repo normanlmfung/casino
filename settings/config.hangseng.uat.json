@@ -1,0 +1,14 @@
+{
+    "queries" : {
+        "historical_closing" : "https://query1.finance.yahoo.com/v7/finance/download/%5EHSI?events=history&includeAdjustedClose=true",
+        "warrants" : {
+            "put" : "https://eba.hangseng.com/eBAWeb/MINISITE_ENG?app=WarrantPut&Type=I"
+        }
+    },
+    "strategy" : {
+        "book_size_hkd" : 1000000,
+        "hedge_horizon_months" : 3,
+        "hedge_scenario" : 0.7,
+        "hedge_ratio" : 1
+    }
+}

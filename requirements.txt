@@ -1,0 +1,17 @@
+kafka-python
+faker
+pandas
+numpy
+dotmap
+sqlalchemy
+PyMySQL
+sqlalchemy_pyodbc_mssql
+pysftp
+textile
+pytz
+tzlocal
+jupyter
+jsonmerge
+configparser
+requests
+bs4

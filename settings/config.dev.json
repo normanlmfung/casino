@@ -1,0 +1,35 @@
+{
+  "general_config": {
+	  "environment": "dev",
+    "default_datetime_format_string": "%Y%m%d"
+  },
+  "integration_config" : {
+    "ftp": {
+      "myftp": {
+        "UserName": "username",
+        "Password": "pwd",
+        "Fingerprint": "\"ssh-ed25518 256 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=\"\"",
+        "Url": "sftp.myftp.com",
+        "Port": 2225
+      }
+    },
+    "message_buses" : {
+      "mds" : {
+        "kafka1" : {
+          "broker1" : "localhost:9092",
+          "broker2" : "localhost:9093",
+          "broker3" : "localhost:9094"
+        }
+      }
+    },
+    "databases" : {
+      "casino_windows" : "driver={SQL Server};server=LAPTOP-3DL5SVN5\\SQLEXPRESS;database=casino;uid=admin;pwd=@dmin888@",
+      "casino_linux" : "driver={/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.7.so.2.1};server=casino.chayhhyfhbvi.ap-east-1.rds.amazonaws.com;database=casino;uid=admin;pwd=admin888"
+     }
+  },
+  "smtp" : {
+    "Url" : "mysmtp.com",
+    "Port" : 25,
+    "FromAddress" : "noreply@mydomain.com"
+  }
+}
